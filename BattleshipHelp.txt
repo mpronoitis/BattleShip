@@ -1,0 +1,66 @@
+Battleship- Help
+
+Game Description:
+The game is played on four grids, two for each player. The grids are typically square – usually 
+10×10 – and the individual squares in the grid are identified by letter and number. On one grid 
+the player arranges ships and records the shots by the opponent. On the other grid the player 
+records his/her own shots. Before play begins, each player secretly arranges their ships on 
+their primary grid. Each ship occupies a number of consecutive squares on the grid, arranged 
+either horizontally or vertically. The number of squares for each ship is determined by the 
+type of the ship. The ships cannot overlap (i.e., only one ship can occupy any given square in 
+the grid). The types and numbers of ships allowed are the same for each player. These may vary 
+depending on the rules.
+After the ships have been positioned, the game proceeds in a series of rounds. In each round, 
+each player takes a turn to announce a target square in the opponent's grid which is to be shot 
+at. The opponent announces whether or not the square is occupied by a ship, and if it is a "hit"
+they mark this on their own primary grid. The attacking player notes the hit or miss on their 
+own "tracking" grid, in order to build up a picture of the opponent's fleet.
+When all of the squares of a ship have been hit, the ship is sunk, and the ship's owner announces 
+this (eg. "You sunk my battleship!"). If all of a player's ships have been sunk, the game is over 
+and their opponent wins.
+
+User Guide
+
+How to place your ships on your board:
+1. The ship placement screen appears, where the player can set the order of his ships on the Board 
+as he wishes. The ships vary in size and are depicted in dark gray on the left board
+2. The player selects the ship they want to place by clicking on one of the squares corresponding 
+to that ship. The ship is marked as "active" and turns yellow.
+3. Moving the mouse to one of the squares on the right board, the player is shown the preview of 
+the "active ship" in green (ie what space the ship will occupy, if its beginning is placed in this 
+square). 
+4. By clicking on the "rotate ship" button, the player can change the direction of the "active" 
+ship (from horizontal to vertical and tubalin).
+5. By clicking on a square from the board on the right, the player places his ship in the specific 
+position (the corresponding squares on the board on the left are left blank).
+6. Do the same for the rest of the ships. Ships can not be placed over another ship that is already 
+placed.
+7. When the player places all his ships on the right board, then the "Start game" button is activated 
+at the bottom right, which until now was inactive. However, the player may want to make some changes 
+before starting the game. This allows the player to click on an already placed ship and make it 
+"active" so that it can be moved to another location or/and change its direction.
+8. When the player considers that all the ships have been placed in the desired position, then he 
+presses the "Start game" button and is transferred to the next screen.
+
+
+How to play:
+1. The game starts and 2 boards appear on the screen. One represents the player's board and inside 
+it shows his ships as he has placed them on the previous screen, while the other represents the 
+computer board (where no ships appear as these are hidden and the player has to guess them).
+Note: Computer ships have been placed in random but valid (without overlapping) locations. This 
+means that they "exist" on the right board, just that their squares are not gray so that the player 
+they are in knows.
+2. The player tries to guess where the computer ships are by clicking on the squares on the right 
+board. As long as the user does not click then the "preview" of the shot in green appears.
+3. When the player clicks on a square then:
+	a) If the shot fails (the square is not covered by a computer ship) then the square becomes 
+	white.
+	b) If the shot is successful (the square is covered by a computer ship) then the square 
+     	turns red.
+Immediately after, the computer that randomly selects a square that has not fired again plays and 
+throws its shot. The square is colored accordingly for a successful or not shot.
+4. The game continues with the computer and player playing alternately and until one of the 2 sinks 
+all the other's ships.
+Note: A ship sinks if shots are fired at all the squares it occupies.
+5. When one of the 2 sinks all the opponent's ships then the winner is announced with a relevant 
+message. When the player reads the message, he presses "OK" and the program ends.
